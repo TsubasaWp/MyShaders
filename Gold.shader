@@ -34,7 +34,7 @@
 		v2f o;
 		o.position = mul(UNITY_MATRIX_MVP, IN.vertex);
 		fixed4 c = _lightColor;
-		// The reflection of RGB of Copper
+		// The reflection of RGB of Gold
 		c.r *= 1;
 		c.g *= 0.71;
 		c.b *= 0.29;
